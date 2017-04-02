@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="stdlib">
+  <library name="stdlib (2)">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/stdlib.jar!/" />
     </CLASSES>
@@ -7,8 +7,5 @@
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/stdlib.jar!/" />
     </SOURCES>
-    <excluded>
-      <root url="jar://$PROJECT_DIR$/stdlib.jar!/" />
-    </excluded>
   </library>
 </component>
