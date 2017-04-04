@@ -6,8 +6,8 @@ public class EX_2_2_15_Sichermandice {
     private EX_2_2_15_Sichermandice(){
     }
 
-    public static int[] dice(){
-        int [] dicearr = {1, 2, 3, 4, 5, 6};
-        return dicearr;
+    public static int[] dicesumprobabilities(int [] dice1, int [] dice2){
+        for (;;)
+        return dice1;
     }
 }
