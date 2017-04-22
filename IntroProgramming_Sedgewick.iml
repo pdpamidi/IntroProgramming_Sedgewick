@@ -11,5 +11,6 @@
     <orderEntry type="library" exported="" scope="PROVIDED" name="introcs" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="stdlib" level="project" />
     <orderEntry type="library" name="stdlib (2)" level="project" />
+    <orderEntry type="library" name="introcs" level="application" />
   </component>
 </module>

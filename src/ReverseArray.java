@@ -40,7 +40,5 @@ public class ReverseArray {
         for (int i=0; i<args.length; i++) {
             StdOut.print(reverseInplace(arr)[i]+ " ");
         }
-
-
     }
 }
