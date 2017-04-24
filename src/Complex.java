@@ -15,8 +15,11 @@
  */
 public class Complex {
     //Instance variables
-    private final double real, imag;
+    private double real, imag;
     //Constructor
+    //default constructor
+    public Complex(){ }
+
     public Complex(double re, double im){
         real = re;
         imag = im;
@@ -28,8 +31,8 @@ public class Complex {
     }
 
     public Complex times(Complex b){
-        double real1 = (real*b.re() - imag*b.im());
-        double imag1 = (imag*b.re() + real*b.im());
+        double real1 = (re()*b.re() - im()*b.im());
+        double imag1 = (im()*b.re() + re()*b.im());
         return new Complex(real1, imag1);
     }
 
