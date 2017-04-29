@@ -3,6 +3,12 @@ import java.awt.Color;
 /**
  *Created by pruth on 4/3/2017.
  */
+
+/**
+ *Albers squares test for the color compatibility
+ *
+ *
+ */
 public class AlbersSquares {
     public static void drawalbers(Color c1, Color c2) {
         StdDraw.setPenColor(c1);
