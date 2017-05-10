@@ -36,9 +36,21 @@ public class Vector {
     //Instance Methods
     public Vector plus(Vector that){
     //sum of this and that vectors
+        if (this.length() != that.length())
+            throw new RuntimeException("Dimension for summing vectors do not match");
         double[] result = new double[coords.length];
         for (int i = 0; i< coords.length; i++)
             result[i] = this.coords[i] + that.coords[i];
+        return new Vector(result);
+    }
+
+    public Vector minus(Vector that){
+        if (this.length() != that.length())
+            throw new RuntimeException("Dimension for subtracting vectors do not match");
+        //sum of this and that vectors
+        double[] result = new double[coords.length];
+        for (int i = 0; i< coords.length; i++)
+            result[i] = this.coords[i] - that.coords[i];
         return new Vector(result);
     }
 
@@ -75,6 +87,13 @@ public class Vector {
 
     public int length() {
         return n;
+    }
+
+    public double distanceTo(Vector that) {
+        //Euclidean distance to other Vector
+        if (this.length() != that.length())
+            throw new IllegalArgumentException("dimensions disagree");
+        return this.minus(that).magnitude();
     }
 
 
