@@ -22,17 +22,17 @@ public class EX1_3_21Kary {
             }
             else {
                 switch (i/power){
-                    case 11: System.out.print("A");
+                    case 10: System.out.print("A");
                         break;
-                    case 12: System.out.print("B");
+                    case 11: System.out.print("B");
                         break;
-                    case 13: System.out.print("C");
+                    case 12: System.out.print("C");
                         break;
-                    case 14: System.out.print("D");
+                    case 13: System.out.print("D");
                         break;
-                    case 15: System.out.print("E");
+                    case 14: System.out.print("E");
                         break;
-                    case 16: System.out.print("F");
+                    case 15: System.out.print("F");
                         break;
                     default: System.out.print(i/power);
                         break;
